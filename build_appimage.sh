@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo sed -i "$ deb http://deepin.c3sl.ufpr.br/deepin/ unstable contrib main non-free" "/etc/apt/sources.list"
+sudo sed -i "$ a deb http://deepin.c3sl.ufpr.br/deepin/ unstable contrib main non-free" "/etc/apt/sources.list"
 
 sudo apt update
 
